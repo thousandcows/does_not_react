@@ -13,7 +13,7 @@ function HeaderTag() {
 
 function NavTag(props) {
   const list = props.data.map((e) => {
-    return <li key={e.id}></li><a href={'/read/'+e.id}>{e.title}</a></li>
+    return <li key={e.id}><a href={'/read/'+e.id}>{e.title}</a></li>
   });
 
   return (
