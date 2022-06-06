@@ -2,6 +2,7 @@
   "name": "noreact",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://thousandcows.github.io/does_not_react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
